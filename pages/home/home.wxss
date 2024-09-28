@@ -1,0 +1,33 @@
+/* pages/home/home.wxss */
+swiper image{
+	width: 100%;
+
+}
+swiper{
+	/* 使用css实现自动换算，得出swiper的高度 */
+	/* 图片全屏展示，等比例缩放 */
+	/* 图片宽高比：1080/720
+			动态换算要使用到css中的函数：calc */
+			/* 100vw=一个屏幕宽度 */
+	height: calc(100vw * (720/1080));
+}
+.banner{
+	position: relative;
+}
+.banner .dot{
+	position: absolute;
+	right: 20rpx;
+	left: 20rpx;
+	display: flex;
+}
+.banner .dots .dot{
+	width: 20rpx;
+	height: 20rpx;
+	border-radius: 10rpx;
+	background-color: #939b99;
+	margin-right: 20rpx;
+	transition: all 0.5s;
+}
+.banner .dot .current{
+	
+}

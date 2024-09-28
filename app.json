@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/menu/menu",
+    "pages/new/new",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "喝一个"
+  },
+  "style": "v2",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "/images/bar/bar1.png",
+      "selectedIconPath": "/images/bar/bar1_1.png"
+    },
+    {
+      "pagePath": "pages/menu/menu",
+      "text": "菜单",
+      "iconPath": "/images/bar/bar2.png",
+      "selectedIconPath": "/images/bar/bar2_2.png"
+    },
+    {
+      "pagePath": "pages/new/new",
+      "text": "新品",
+      "iconPath": "/images/bar/bar3.png",
+      "selectedIconPath": "/images/bar/bar3_3.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "小二",
+      "iconPath": "/images/bar/bar4.png",
+      "selectedIconPath": "/images/bar/bar4_4.png"
+    }]
+  }
+}
